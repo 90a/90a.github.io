@@ -1,0 +1,40 @@
+@charset "utf-8" ;
+
+html, body{
+	background: #222;
+}
+
+/* horizontal */
+.hor-vid-wrap{  
+    width:100%;
+	background: ; 
+	/*onTop display*/
+    position: relative;
+	/* 9/16 */
+    padding-bottom:56.25%;
+    height: 0;  
+}  
+.hor-vid-wrap video{  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 100%  
+}
+	
+/* vertical */
+.ver-vid-wrap{  
+    width:100%;
+	background: ;  
+    position: ;
+	/* 9/16 */
+    padding-bottom:56.25%;  
+    height: 0;  
+}  
+.ver-vid-wrap video{  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100% ;  
+    height: 100% ;
+}

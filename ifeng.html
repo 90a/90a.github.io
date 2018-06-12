@@ -1,0 +1,31 @@
+<!DOCTYPE html><html class="modern" lang="zh-cmn-Hans"><head>
+<meta content-type="text/html" charset="utf-8"/>
+<style type="text/css"> html,body{background: #000;}  .video-js{margin: auto;} </style>
+
+  <title>人工智能-流媒体测试-谱瑞视频</title>
+  
+  
+<link href="./pony-hls/video-js.min.css" rel="stylesheet">
+<script src="./pony-hls/video.min.js"></script>
+<script src="./pony-hls/videojs-contrib-hls.min.js"></script>
+
+</head><body>
+
+<br/><br/><br/>
+
+
+	<video id="video"
+		   class="video-js vjs-default-skin vjs-big-play-centered"
+		   height="720"
+		   width="1280"
+		   controls autoplay>
+
+	  <source src="./m3u8/ai/index.m3u8" type="application/x-mpegurl">  
+	</video>
+
+	
+
+<script> videojs('video'); </script>
+
+</body></html>
+
